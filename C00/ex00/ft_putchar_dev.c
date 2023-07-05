@@ -6,6 +6,7 @@
 #include<unistd.h>
 
 void ft_putchar(char c) {
+    // 간단하게 write(터미널출력, 값 저장된 주소! ,몇개나 출력할지);
     write(1, &c, 1);
 }
 int main(void) {
