@@ -21,7 +21,6 @@ char* ft_strncat(char* dest, char* src, int n) {
 
     dest[destNullIndex] = '\0';
     return dest;
-
 }
 
 int main(){
