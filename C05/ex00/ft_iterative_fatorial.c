@@ -17,15 +17,6 @@ fact(6) = 720
 
 int ft_iterative_factorial(int nb) {
     if(nb <0) {return 0;} 
-    
-    /* 내가 사용한 방식!
-    int result[nb];
-    result[0] = 1;
-    for(int i =1; i<=nb; i++) {
-        result[i] = i*result[i-1];
-    }
-    return result[nb];
-    */
 
    int index =1;
    int factorial = 1;
